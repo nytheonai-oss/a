@@ -4,7 +4,7 @@ $f = "$env:USERPROFILE\Desktop\BTMOB WORK"
 $7z = "$env:TEMP\7z.exe"
 
 Write-Host "========================================"
-Write-Host "DOWNLOADING BTMOB_v4.6.zip"
+Write-Host "DOWNLOADING"
 Write-Host "========================================"
 
 # Check for 7-Zip
@@ -47,12 +47,12 @@ New-Item -ItemType Directory -Force -Path $f | Out-Null
 & $exe x $z -o"$f" -y
 Write-Host "Extraction complete!"
 Write-Host "========================================"
-Write-Host "SETTING RANDOM DATES 01.04.2005 - 10.05.2005"
+Write-Host "SETTING RANDOM DATES 01/01/2026 - 02/13/2026"
 Write-Host "========================================"
 
 # Set random dates
-$start = Get-Date "04/01/2005"
-$end = Get-Date "05/10/2005"
+$start = Get-Date "01/01/2026"
+$end = Get-Date "02/13/2026"
 $days = ($end - $start).Days
 $items = Get-ChildItem $f -Recurse
 $count = $items.Count
