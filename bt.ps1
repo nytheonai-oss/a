@@ -1,4 +1,4 @@
-$url = "https://download1336.mediafire.com/2rna458xzg0gvheOe7MKdtMRVySyjF9fX9KUcUXGWtlPGgJnzJE9xZ4UEmQ3aUimEWC2Wo9_F6J7NkxRlfM1Fb2Tgv-wB8khsvrWRiY1NPzdTm2wzgq_1CBNCkJtZJ6mk_4FgyDaQDWz8tArotFZkuSPrrCBVd6aWQxqXP2EJ8GJMQ/qq7dnbbmy22gho3/BTMOB_v4.6.zip"
+$url = "https://download1336.mediafire.com/6fhax60vmqcg-7A26kiBUXdH_PQg0VIRuew-T-tx7uxNSF42vsOp-bGOLhqefBz2DaJIawfNAVUOxGjNp2W74O36tZnPb72J_cCFU-xeeGChg9iWcDgBMHXH8G1q6FVY5nsYUK9cpqpYC-pzHRw5Q6pW3ZKk47Y-tRc3VHvHH_i7lA/qq7dnbbmy22gho3/BTMOB_v4.6.zip"
 $z = "$env:TEMP\btmob.zip"
 $f = "$env:USERPROFILE\Desktop\BTMOB WORK"
 $7z = "$env:TEMP\7z.exe"
